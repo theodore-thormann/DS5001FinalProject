@@ -1,4 +1,4 @@
-# DS5001FinalProject
+# Horror Film Text Analysis
 
 ## Data
 
@@ -23,29 +23,27 @@ This project consists of 21 CSV tables
 
 CORPUS contains all the films in the corpus
 CORPUS_1980 & CORPUS_1990 & CORPUS_2000 contain only films for that decade
-#### Profile:
 
-| Column              | Type           | Description                                                                   |
-|---------------------|----------------|-------------------------------------------------------------------------------|
-| CLIENT              | VARCHAR        | ID for the client                                                             |
-| ID                  | VARCHAR        | Unique ID for the row. Connects with Event set_profile                        |
-| USER_ID             | VARCHAR        | Unique ID for each user                                                       |
-| EMAILS              | VARCHAR        | Email addresses associated with a user                                        |
-| CAMPAIGNS           | VARIANT (JSON) | Campaigns a user participated in                                              |
-| CREATED             | TIMESTAMP      | Timestamp of when a user was created                                          |
-| UPDATED             | TIMESTAMP      | Timestamp of when a user was last updated                                     |
-| DOMAINS             | VARIANT (JSON) | Domains that a user has visited                                               |
-| FIRST_VISIT         | TIMESTAMP      | Timestamp of when a user first visited the platform                           |
-| IDENTIFIED_ON       | TIMESTAMP      | To be discussed with Hum                                                      |
-| IDENTIFYING_REFERER | VARCHAR        | To be discussed with Hum                                                      |
-| IDENTIFYING_UTM     | VARCHAR        | To be discussed with Hum                                                      |
-| LAST_ACTIVE         | TIMESTAMP      | Timestamp of when a user was last active on the platform                      |
-| ORGANIZATION_IDS    | ARRAY          | Organizations that a user is part of                                          |
-| SEGMENTS            | ARRAY          | To be discussed with Hum                                                      |
-| PROPERTIES          | VARIANT (JSON) | To be discussed with Hum                                                      |
-| METRICS             | VARIANT (JSON) | To be discussed with Hum                                                      |
-| PERCENTILES         | VARIANT (JSON) | To be discussed with Hum                                                      |
-| USER_SIDS           | ARRAY          | To be discussed with Hum                                                      |
+#### VOCAB & VOCAB_1980 & VOCAB_1990 & VOCAB_2000:
+
+| Column         | Type  | Description                                                                  |
+|----------------|-------|------------------------------------------------------------------------------|
+| term_str       | str   | A term in the corpus                                                         |
+| n              | int   | The number of times that term appears in the corpus                          |
+| n_chars        | int   | The number of characters of the term                                         |
+| p              | float | The probability of that term appearing in the corpus                         |
+| i              | float | The inverse log of the probabily                                             |
+| max_pos        | str   | The most frequently associated part-of-space category for each token         |
+| n_pos          | str   | The number of parts of speech associated with that token                     |
+| cat_pos        | list  | A concatenated list of all the parts of speech associated with that token    |
+| stop           | int   | 1 indicates the token is a stopword, 0 indicates the token is not a stopword |
+| stem_porter    | str   | Porter stemming algorithm applied to the term                                |
+| stem_snowball  | str   | Snowball stemming algorithm applied to the term                              |
+| stem_lancaster | str   | Lancaster stemming algorithm applied to the term                             |
+| tfidf          | float | Term frequency-inverse document frequency                                    |
+
+VOCAB contains all the films in the corpus
+VOCAB_1980 & VOCAB_1990 & VOCAB_2000 contain only vocab tables for films for that decade
 
 #### Content:
 
