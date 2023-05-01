@@ -8,7 +8,7 @@ This project consists of 21 CSV tables
 
 ### Data Description
 
-#### CORPUS:
+#### CORPUS & CORPUS_1980 & CORPUS_1990 & CORPUS_2000:
 
 | Column    | Type  | Description                                                                            |
 |-----------|-------|----------------------------------------------------------------------------------------|
@@ -21,6 +21,8 @@ This project consists of 21 CSV tables
 | token_str | str   | A token in the corpus                                                                  |
 | term_str  | str   | A normalized version of a token in the corpus in lowercase with any characters removed |
 
+CORPUS contains all the films in the corpus
+CORPUS_1980 & CORPUS_1990 & CORPUS_2000 contain only films for that decade
 #### Profile:
 
 | Column              | Type           | Description                                                                   |
