@@ -45,6 +45,31 @@ CORPUS_1980 & CORPUS_1990 & CORPUS_2000 contain only films for that decade
 VOCAB contains all the films in the corpus
 VOCAB_1980 & VOCAB_1990 & VOCAB_2000 contain only vocab tables for films for that decade
 
+
+#### LIB:
+
+| Column           | Type | Description                       |
+|------------------|------|-----------------------------------|
+| movie_id         | int  | The ID associated with that movie |
+| movie_title      | str  | The title of the movie            |
+| source_file_path | str  | The path to the source file       |
+| year             | str  | The year of the film's release    |
+| decade           | str  | The decade of the film's release  |
+| movie_len        | int  | The number of tokens in the movie |
+| n_scenes         | int  | The number of scenes in the movie |
+
+#### LIB:
+
+| Column           | Type | Description                       |
+|------------------|------|-----------------------------------|
+| movie_id         | int  | The ID associated with that movie |
+| movie_title      | str  | The title of the movie            |
+| source_file_path | str  | The path to the source file       |
+| year             | str  | The year of the film's release    |
+| decade           | str  | The decade of the film's release  |
+| movie_len        | int  | The number of tokens in the movie |
+| n_scenes         | int  | The number of scenes in the movie |
+
 #### TFIDF (Term Frequency-Inverse Document Rrequency):
 
 | Column   | Type | Description                                               |
