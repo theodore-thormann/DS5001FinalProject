@@ -53,6 +53,13 @@ VOCAB_1980 & VOCAB_1990 & VOCAB_2000 contain only vocab tables for films for tha
 | scene_id | int  | The scene number in that film                             |
 | term     | str  | Each token in the corpus represented as a separate column |
 
+#### DFIDF:
+
+| Column   | Type  | Description          |
+|----------|-------|----------------------|
+| term_str | str   | A term in the corpus |
+| DFIDF    | float | DFIDF of term        |
+
 #### Content:
 
 | Column          | Type      | Description                                                                   |
