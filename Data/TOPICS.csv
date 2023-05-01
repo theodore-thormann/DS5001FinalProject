@@ -1,0 +1,21 @@
+topic_id,0,1,2,3,4,5,6,label,doc_weight_sum,term_freq
+T00,camera,corridor,bg,floor,caml,hands,vo,"T00 camera, corridor, bg, floor, caml, hands, vo",247.18488915286204,0.029098762278097073
+T01,ship,light,man,bed,beat,door,water,"T01 ship, light, man, bed, beat, door, water",284.70545862600096,0.04036433230143317
+T02,face,eyes,hair,hand,room,blood,hands,"T02 face, eyes, hair, hand, room, blood, hands",303.0419834058435,0.06137886650473013
+T03,door,room,eyes,floor,hall,hand,stairs,"T03 door, room, eyes, floor, hall, hand, stairs",454.93822646766574,0.0897968522515863
+T04,door,house,eyes,kitchen,bathroom,room,walks,"T04 door, house, eyes, kitchen, bathroom, room, walks",320.92850921453754,0.05143210718251934
+T05,beat,eyes,face,way,time,man,head,"T05 beat, eyes, face, way, time, man, head",238.27654021457306,0.06021772727288498
+T06,arms,car,eyes,body,window,time,look,"T06 arms, car, eyes, body, window, time, look",199.7155719135868,0.033626751036676235
+T07,car,body,face,eyes,hand,creature,feet,"T07 car, body, face, eyes, hand, creature, feet",283.32392645688583,0.0569165353977391
+T08,face,inside,way,hand,wall,look,gun,"T08 face, inside, way, hand, wall, look, gun",234.7675098191617,0.03906322084477836
+T09,starling,dog,radio,ice,time,men,dogs,"T09 starling, dog, radio, ice, time, men, dogs",210.92764701908848,0.02633518308462412
+T10,way,hand,face,door,eyes,room,steps,"T10 way, hand, face, door, eyes, room, steps",246.0810616897954,0.04500736293391597
+T11,water,head,eyes,hand,man,face,dog,"T11 water, head, eyes, hand, man, face, dog",244.60138377767205,0.037884762340829506
+T12,wall,spiders,window,tv,face,water,town,"T12 wall, spiders, window, tv, face, water, town",219.52920228946834,0.025082418053155458
+T13,night,car,sir,window,house,police,creatures,"T13 night, car, sir, window, house, police, creatures",247.18117154344003,0.034916129498591936
+T14,door,window,hand,street,car,floor,apartment,"T14 door, window, hand, street, car, floor, apartment",344.33566724894814,0.05360324212456148
+T15,vo,eyes,tape,bed,way,hand,body,"T15 vo, eyes, tape, bed, way, hand, body",227.68728236361136,0.03658200406931945
+T16,eyes,face,head,hand,floor,os,screen,"T16 eyes, face, head, hand, floor, os, screen",265.6423022387127,0.0506428332539223
+T17,time,room,head,eyes,thing,hand,day,"T17 time, room, head, eyes, thing, hand, day",324.2756559306259,0.08162065560007736
+T18,phone,beat,os,table,hand,desk,room,"T18 phone, beat, os, table, hand, desk, room",392.1132112854991,0.08972203361404281
+T19,car,road,door,truck,head,feet,cruiser,"T19 car, road, door, truck, head, feet, cruiser",334.7427993420321,0.05670822035651508
