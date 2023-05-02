@@ -58,17 +58,20 @@ VOCAB_1980 & VOCAB_1990 & VOCAB_2000 contain only vocab tables for films for tha
 | movie_len        | int  | The number of tokens in the movie |
 | n_scenes         | int  | The number of scenes in the movie |
 
-#### LIB:
+#### DOC:
 
-| Column           | Type | Description                       |
-|------------------|------|-----------------------------------|
-| movie_id         | int  | The ID associated with that movie |
-| movie_title      | str  | The title of the movie            |
-| source_file_path | str  | The path to the source file       |
-| year             | str  | The year of the film's release    |
-| decade           | str  | The decade of the film's release  |
-| movie_len        | int  | The number of tokens in the movie |
-| n_scenes         | int  | The number of scenes in the movie |
+| Column           | Type | Description                                |
+|------------------|------|--------------------------------------------|
+| movie_id         | int  | The ID associated with that movie          |
+| scene_id         | int  | The scene number in the movie              |
+| movie_title      | str  | The title of the movie                     |
+| source_file_path | str  | The path to the source file                |
+| year             | str  | The year of the film's release             |
+| decade           | str  | The decade of the film's release           |
+| movie_len        | int  | The number of tokens in the movie          |
+| n_scenes         | int  | The number of scenes in the movie          |
+| title            | str  | The movie title concatenated with the year |
+
 
 #### TFIDF (Term Frequency-Inverse Document Rrequency):
 
