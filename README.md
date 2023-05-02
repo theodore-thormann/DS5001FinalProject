@@ -127,9 +127,30 @@ VOCAB_1980 & VOCAB_1990 & VOCAB_2000 contain only vocab tables for films for tha
 | term_str | str  | A term in the corpus    |
 
 #### TOPICS
-#### PHI
 
 | Column   | Type | Description             |
 |----------|------|-------------------------|
 | topic_id | str  | The ID of a given topic |
 | term_associations | str  | Words assoicated with the topic   |
+
+#### sentiment_polarity
+
+| Column      | Type  | Description                                                                                                       |
+|-------------|-------|-------------------------------------------------------------------------------------------------------------------|
+| movie_title | str   | The title of a film                                                                   |
+| sentiment   | float | The overall sentiment of a movie between -1 and 1 with -1 being negative sentiment and 1 being positive sentiment |
+
+#### emotions
+
+| Column       | Type  | Description                                                                                                       |
+|--------------|-------|-------------------------------------------------------------------------------------------------------------------|
+| movie_title  | str   | The title of a film                                                                                               |
+| anger        | float | Amount the film is associated with anger on a scale of 0-1                                                        |
+| anticipation | float | Amount the film is associated with anticipation on a scale of 0-1                                                 |
+| disgust      | float | Amount the film is associated with disgust on a scale of 0-1                                                      |
+| fear         | float | Amount the film is associated with fear on a scale of 0-1                                                         |
+| joy          | float | Amount the film is associated with joy on a scale of 0-1                                                          |
+| sadness      | float | Amount the film is associated with sadness on a scale of 0-1                                                      |
+| surprise     | float | Amount the film is associated with surprise on a scale of 0-1                                                     |
+| trust        | float | Amount the film is associated with trust on a scale of 0-1                                                        |
+| sentiment    | float | The overall sentiment of a movie between -1 and 1 with -1 being negative sentiment and 1 being positive sentiment |
