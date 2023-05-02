@@ -125,3 +125,11 @@ VOCAB_1980 & VOCAB_1990 & VOCAB_2000 contain only vocab tables for films for tha
 |----------|------|-------------------------|
 | topic_id | str  | The ID of a given topic |
 | term_str | str  | A term in the corpus    |
+
+#### TOPICS
+#### PHI
+
+| Column   | Type | Description             |
+|----------|------|-------------------------|
+| topic_id | str  | The ID of a given topic |
+| term_associations | str  | Words assoicated with the topic   |
