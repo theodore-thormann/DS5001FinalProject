@@ -2,11 +2,14 @@
 
 ## Data
 
+### Data Corpus Description
+The source files for this dataset can be located at the following link: https://virginia.box.com/s/jmrw18xum970zrjkupuk6e7yy0claq6k
+
 These tables can be accessed at the following link: https://virginia.box.com/s/4zfi385yvykwvuui179slxfubf22t5cq
 
 This project consists of 21 CSV tables
 
-### Data Description
+### Data Table Description
 
 #### CORPUS & CORPUS_1980 & CORPUS_1990 & CORPUS_2000:
 
