@@ -88,28 +88,25 @@ VOCAB_1980 & VOCAB_1990 & VOCAB_2000 contain only vocab tables for films for tha
 | term_str | str   | A term in the corpus |
 | DFIDF    | float | DFIDF of term        |
 
-#### Content:
+#### COMPS:
 
-| Column          | Type      | Description                                                                   |
-|-----------------|-----------|-------------------------------------------------------------------------------|
-| CLIENT          | VARCHAR   | ID for the client                                                             |
-| ID              | VARCHAR   | Unique ID for the row. Connects with Event set_profile                        |
-| CONTENT_ID      | VARCHAR   | Unique ID for each content                                                    |
-| KEYWORDS        | ARRAY     | Keywords associated with a content                                            |
-| DOWNLOAD_SLIDE  | DOUBLE    | Number of times the content had a download slide event                        |
-| PDF_CLICK       | DOUBLE    | Number of times the content had a PDF click event                             |
-| PAGEVIEW        | DOUBLE    | Number of times the content had a page view event                             |
-| POST_READ       | DOUBLE    | Number of times the content had a post read event                             |
-| POST_READ_MID   | DOUBLE    | Number of times the content had a post read mid event                         |
-| POST_READ_START | DOUBLE    | Number of times the content had a post read start event                       |
-| POST_READ_END   | DOUBLE    | Number of times the content had a post read end event                         |
-| SCROLL          | DOUBLE    | Number of times the content had a scroll event                                |
-| EXCERPT         | VARCHAR   | Text excerpt from the content                                                 |
-| CONTENT         | VARCHAR   | Description of the content                                                    |
-| SCORE           | DOUBLE    | Sum of all the event columns                                                  |
-| SOURCE          | VARCHAR   | Source of the content                                                         |
-| TITLE           | VARCHAR   | Title of the content                                                          |
-| TYPE            | VARCHAR   | Type of the content                                                           |
-| URL             | VARCHAR   | URL of the content                                                            |
-| CREATED         | TIMESTAMP | Timestamp of when a content was created                                       |
-| UPDATED         | TIMESTAMP | Timestamp of when a content was updated                                       |
+| Column   | Type  | Description                                              |
+|----------|-------|----------------------------------------------------------|
+| pc_id    | str   | ID number associated with that principal component       |
+| eig_val  | float | The eigen value associated with that principal component |
+| term_str | str   | A term in the corpus                                     |
+
+#### LOADINGS:
+
+| Column   | Type  | Description                                                         |
+|----------|-------|---------------------------------------------------------------------|
+| term_str | str   | A term in the corpus                                                |
+| pc_val   | float | The contribution of the index term to the principal component value |
+
+#### DCM (Document Component Matrix):
+
+| Column   | Type  | Description                                                         |
+|----------|-------|---------------------------------------------------------------------|
+| movie_id | int   | The movie ID associated with a particular film                      |
+| scene_id | int   | The scene number in that film                                       |
+| pc_id    | float | The contribution of the index term to the principal component value |
