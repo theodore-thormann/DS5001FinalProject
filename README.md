@@ -110,3 +110,18 @@ VOCAB_1980 & VOCAB_1990 & VOCAB_2000 contain only vocab tables for films for tha
 | movie_id | int   | The movie ID associated with a particular film                      |
 | scene_id | int   | The scene number in that film                                       |
 | pc_id    | float | The contribution of the index term to the principal component value |
+
+#### THETA
+
+| Column            | Type  | Description                                                                    |
+|-------------------|-------|--------------------------------------------------------------------------------|
+| movie_id          | int   | The movie ID associated with a particular film                                 |
+| scene_id          | int   | The scene number in that film                                                  |
+| topic_association | float | How much each scene in the movie relates to the given topic of the topic model |
+
+#### PHI
+
+| Column   | Type | Description             |
+|----------|------|-------------------------|
+| topic_id | str  | The ID of a given topic |
+| term_str | str  | A term in the corpus    |
