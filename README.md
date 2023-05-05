@@ -157,3 +157,16 @@ VOCAB_1980 & VOCAB_1990 & VOCAB_2000 contain only vocab tables for films for tha
 | surprise     | float | Amount the film is associated with surprise on a scale of 0-1                                                     |
 | trust        | float | Amount the film is associated with trust on a scale of 0-1                                                        |
 | sentiment    | float | The overall sentiment of a movie between -1 and 1 with -1 being negative sentiment and 1 being positive sentiment |
+
+## Table Creation
+The main tables used across this analysis were the CORPUS, VOCAB, LIB, and TFIDF tables. These were created using the python notebooks titled `LIB_CORPUS_VOCAB_DOCS.ipynb` and `TFIDF_DFIDF.ipynb`.
+
+The other tables created for this project can be found in the other .ipynb files in this GitHub.
+
+##Analysis
+5 Major types of analysis were conducted on the corpus. 
+Clustering analysis can be located in  `RealClusterFinalProject.ipynb`
+Principal Component Analysis can be located in `PCAFinalProject.ipynb`
+Topic Modeling can be located in `LDAFinalProject.ipynb`
+Word Embeddings can be located in `Word2VecFinalProject.ipynb`
+Sentiment Analysis can be located in `MovieSentimentsFinalProject.ipynb`
