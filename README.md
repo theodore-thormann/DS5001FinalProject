@@ -164,9 +164,9 @@ The main tables used across this analysis were the CORPUS, VOCAB, LIB, and TFIDF
 The other tables created for this project can be found in the other .ipynb files in this GitHub.
 
 ## Analysis
-5 Major types of analysis were conducted on the corpus. 
-Clustering analysis can be located in  `RealClusterFinalProject.ipynb`
-Principal Component Analysis can be located in `PCAFinalProject.ipynb`
-Topic Modeling can be located in `LDAFinalProject.ipynb`
-Word Embeddings can be located in `Word2VecFinalProject.ipynb`
+5 Major types of analysis were conducted on the corpus. <br>
+Clustering analysis can be located in  `RealClusterFinalProject.ipynb` <br>
+Principal Component Analysis can be located in `PCAFinalProject.ipynb` <br>
+Topic Modeling can be located in `LDAFinalProject.ipynb` <br>
+Word Embeddings can be located in `Word2VecFinalProject.ipynb` <br>
 Sentiment Analysis can be located in `MovieSentimentsFinalProject.ipynb`
